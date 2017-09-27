@@ -2,5 +2,5 @@ var recipes = {sandwich:"peanut butter, jelly, bread", soup:"water, salt, chicke
 
 function updateObjectWithKeyAndValue(object, key, value) {
   var newObject = Object.assign({}, object)
-  return newObject
+  return object
 }
