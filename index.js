@@ -3,3 +3,7 @@ var recipes = {sandwich:"peanut butter, jelly, bread", soup:"water, salt, chicke
 function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object,{ [key]:value})
 }
+
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+  
+}
