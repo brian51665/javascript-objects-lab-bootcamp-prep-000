@@ -1,6 +1,6 @@
 var recipes = {sandwich:"peanut butter, jelly, bread", soup:"water, salt, chicken"}
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  var newObject = object.assing({}, object)
+  var newObject = Object.assing({}, object)
   return newObject
 }
